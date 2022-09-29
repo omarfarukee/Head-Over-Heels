@@ -5,18 +5,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import ('./Body.css')
 const Body = () => {
-    const [element, setElement] = useState([]);
-
+    const [elements, setElement] = useState([]);
+    const [times, setTimes] = useState([])
     useEffect( () =>{
         fetch('products.json')
         .then(res => res.json())
         .then(data => setElement(data))
     }, [])
-    // useEffect(()=>{
-    //     fetch('products.json')
-    //     .then(res => res.json())
-    //     .then(data => console.log(data))
-    // },[])
+
+    const handleBtnCall = (elements) =>{
+        const newTimes = [...times , elements]
+        console.log(newTimes)
+        setTimes(newTimes)
+    }
     return (
         <div className='body-data'>
             <div className='body-data-size'>
@@ -25,8 +26,10 @@ const Body = () => {
                 </div>
                 <div className='elements-grid'>
                  {
-                    element.map(elements => <Tools
-                    elements= {elements}
+                    elements.map(element => <Tools
+                    key = {element.id}
+                    element= {element}
+                    handleBtnCall = {handleBtnCall}
                     ></Tools>)
                 }
                 </div>

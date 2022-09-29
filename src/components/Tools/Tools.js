@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faFolderPlus } from '@fortawesome/free-solid-svg-icons'
 import ('./Tools.css')
 const Tools = (props) => {
-    console.log(props)
-    const {name, img, details, time} = props.elements
+    const {name, img, details, time} = props.element
     return (
         <div className='tools-container'>
             <div>
@@ -12,7 +11,7 @@ const Tools = (props) => {
                 <h3>{name}</h3>
                 <p>{details}</p>
                 <h2>time :{time}s</h2>  
-                <button className='btn-add'>Add to list <FontAwesomeIcon icon={faFolderPlus} /> </button>
+                <button className='btn-add' onClick={() =>props.handleBtnCall(props.element)}>Add to list <FontAwesomeIcon icon={faFolderPlus} /> </button>
         </div>
 
         </div>
