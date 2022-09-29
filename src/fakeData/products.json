@@ -1,57 +1,53 @@
 [
   {
     "id": 1,
-    "category": "Beginner",
-    "details" : "dadakdjaoidjdjadjlka",
-    "name": "Dumble",
-    "age": "20-25",
-    "time": 30,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    "details" : "This type of gym equipment is best used for bodybuilders and powerlifters as it’s not that transferable in other areas of fitness.",
+   
+    "time":10 ,
+    "img": "https://images.pexels.com/photos/3836878/pexels-photo-3836878.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
     "id": 2,
-    "category": "Beginner",
-    "details" : "dadakdjaoidjdjadjlka",
-    "name": "Dumble",
-    "age": "20-25",
-    "time": 30,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2cee64414e1f4f31baf1ae270099d950_9366/Lunar_New_Year_Ultraboost_DNA_Shoes_Black_GZ6074_01_standard.jpg"
+
+    "details" : "Anyone wanting to better their cardiovascular fitness. They can be beneficial for sprinters and long-distance runners. so its very help-full",
+    "name": "TREADMILL",
+    
+    "time":12,
+    "img": "https://images.pexels.com/photos/3757957/pexels-photo-3757957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
     "id": 3,
-    "category": "Beginner",
-    "details" : "dadakdjaoidjdjadjlka",
-    "name": "Dumble",
-    "age": "20-25",
-    "time": 30,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/69cbc73d0cb846889f89acbb011e68cb_9366/Supernova_Shoes_Black_S42722_01_standard.jpg"
+   
+    "details" : "This dip station grows and builds strength within your triceps. Athletes such as rowers, baseball players, powerlifters, and bodybuilders should use this.",
+    "name": "chest fly machine",
+
+    "time": 15,
+    "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/05/Male_Gym_1296x728-body-1296x728.jpg?w=1155&h=1528"
   },
   {
     "id": 4,
-    "category": "Beginner",
-    "details" : "dadakdjaoidjdjadjlka",
-    "name": "Dumble",
-    "age": "20-25",
-    "time": 30,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg"
+
+    "details" : "Again, this is not a functional fitness exercise, so mainly the incline bench is beneficial for bodybuilders or those who are wanting to add to their aesthetic.",
+    "name": "INCLINE BENCH PRESS",
+
+    "time": 10,
+    "img": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2017/03/Incline-Bench-Press.jpg"
 
   },
   {
     "id": 5,
-    "category": "Beginner",
-    "details" : "dadakdjaoidjdjadjlka",
-    "name": "Dumble",
-    "age": "20-25",
-    "time": 30,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c5d1994dfd343e28567ad4400dd351d_9366/4DFWD_Shoes_Black_Q46447_01_standard.jpg"
+
+    "details" : "Leg press is a resistance-based activity that is good for building muscle. If you’re a bodybuilder or powerlifter, then you should use this machine to build muscle.",
+    "name": "LEG PRESS MACHINE ",
+ 
+    "time": 20,
+    "img": "https://st2.depositphotos.com/3001967/9667/i/600/depositphotos_96670708-stock-photo-strong-man-with-fit-muscular.jpg"
   }, 
   {
       "id": 6,
-      "category": "Beginner",
-      "details" : "dadakdjaoidjdjadjlka",
-      "name": "Dumble",
-      "age": "20-25",
-      "time": 30,
-      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c5d1994dfd343e28567ad4400dd351d_9366/4DFWD_Shoes_Black_Q46447_01_standard.jpg"
+      "details" : "If you do yoga, pilates, you’re a swimmer or cyclist this machine will help strengthen your back muscles.so thats why its so help-full",
+      "name": "LAT PULL DOWN",
+      "time": 12,
+      "img": "https://fitlifefanatics.com/wp-content/uploads/2020/01/how-to-use-lat-pull-down-machine.jpg"
   }
 ]
