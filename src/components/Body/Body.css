@@ -14,6 +14,83 @@
     padding-right:3%;
 }
 .activity-container{
-    background-color: aqua;
+    background-color: white;
     margin-right:5%;
+    border-radius:10px;
+    padding:6%;
+    
+}
+.cart{
+  display: flex;
+  height:50px;
+  margin-bottom: 20px;
+}
+.cart img{
+    height:50px;
+    width:38px;
+    border-radius:15%;
+}
+.cart-details h3{
+    position: relative;
+   bottom: 15px;
+   left:10px;
+}
+.cart-details p{
+    position: relative;
+   bottom: 35px;
+   left: 10px;
+}
+.about-me {
+    align-items: center;
+    height:65px;
+    display: flex;
+    justify-content: space-around;
+   border-radius: 10px;
+    background-color: #E5E5E5;
+}
+.small{
+    font-size:12px;
+}
+.under{
+    position: relative;
+    bottom:18px;
+}
+.break{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.time-btn{
+    align-items: center;
+    height:70px;
+   display: flex;
+   justify-content: space-around;
+   background-color: #E5E5E5;
+   border-radius: 12px;
+}
+.time-btn button{
+    height:45px;
+    width:45px;
+    border-radius:50%;
+    border: none;
+    font-weight: 700;
+}
+.Exercise-Time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5E5E5;
+    height: 20px;
+    padding:15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.see-btn{
+    height:40px;
+    width: 100%;
+    border: none;
+   background-color:rgb(97, 97, 225);
+    border-radius:10px;
+   font-size: 17px;
+   font-weight: 700;
 }
