@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Tools from '../Tools/Tools';
-import img from '../../images/IMG_0192 (2).JPG'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import TimeCalculate from '../TimeCaculate/TimeCalculate';
 import ('./Body.css')
 const Body = () => {
     const [elements, setElement] = useState([]);
@@ -36,7 +34,7 @@ const Body = () => {
 
             </div>
             <div className='activity-container'>
-                <div className='cart'>
+                {/* <div className='cart'>
                     <img src={img} alt="" />
                     <div className='cart-details'>
                         <h3>Omar Faruk</h3>
@@ -73,7 +71,8 @@ const Body = () => {
                     <h4>Break-time</h4>
                     <p>00s</p>
                 </div>
-                <button className='see-btn'>See activity</button>
+                <button className='see-btn'>See activity</button> */}
+                <TimeCalculate times = {times}></TimeCalculate>
             </div>
         </div>
     );

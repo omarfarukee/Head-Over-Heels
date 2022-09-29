@@ -10,7 +10,7 @@ const Tools = (props) => {
                 <img src={img} alt="" />
                 <h3>{name}</h3>
                 <p>{details}</p>
-                <h2>time :{time}s</h2>  
+                <h2>time :{time}m</h2>  
                 <button className='btn-add' onClick={() =>props.handleBtnCall(props.element)}>Add to list <FontAwesomeIcon icon={faFolderPlus} /> </button>
         </div>
 
