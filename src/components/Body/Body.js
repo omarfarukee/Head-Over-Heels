@@ -34,44 +34,6 @@ const Body = () => {
 
             </div>
             <div className='activity-container'>
-                {/* <div className='cart'>
-                    <img src={img} alt="" />
-                    <div className='cart-details'>
-                        <h3>Omar Faruk</h3>
-                        <p><FontAwesomeIcon icon={faLocationDot}/> Dhaka, Bangladesh</p>
-                    </div>
-                </div>
-                <div className='about-me'>
-                    <div>
-                        <h2>65<small className='small'>kg</small></h2>
-                        <p className='under'>Weight</p>
-                    </div>
-                    <div>
-                        <h2>5.8<small className='small'>ft.</small></h2>
-                        <p className='under'>Height</p>
-                    </div>
-                    <div>
-                        <h2>21<small className='small'>yr.</small></h2>
-                        <p className='under'>age</p>
-                    </div>
-                </div>
-                <h2 className='break'>Break-time-add</h2>
-                <div className='time-btn'>
-                    <button>45s</button>
-                    <button>60s</button>
-                    <button>75s</button>
-                    <button>99s</button>
-                </div>
-                <h3 className='break'>Exercise-information</h3>
-                <div className='Exercise-Time'>
-                    <h4>Exercise-Time</h4>
-                    <p>00s</p>
-                </div>
-                <div className='Exercise-Time'>
-                    <h4>Break-time</h4>
-                    <p>00s</p>
-                </div>
-                <button className='see-btn'>See activity</button> */}
                 <TimeCalculate times = {times}></TimeCalculate>
             </div>
         </div>

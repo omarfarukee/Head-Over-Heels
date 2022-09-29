@@ -20,7 +20,7 @@ const TimeCalculate = (props) => {
         const breakTimeValue = breakTime.innerText
         const string1 = parseFloat(breakTimeValue)
         grandTime.innerText = string1;
-        document.getElementById('btn1').style.backgroundColor = 'blue' ;
+        document.getElementById('btn1').style.backgroundColor = 'rgb(5, 172, 237)' ;
         document.getElementById('btn2').style.backgroundColor = 'white' ;
         document.getElementById('btn3').style.backgroundColor = 'white' ;
         document.getElementById('btn4').style.backgroundColor = 'white' ;
@@ -32,7 +32,7 @@ const TimeCalculate = (props) => {
         const string2 = parseFloat(breakTimeValue2)
         grandTime2.innerText = string2;
         document.getElementById('btn1').style.backgroundColor = 'white'
-        document.getElementById('btn2').style.backgroundColor = 'blue' ;
+        document.getElementById('btn2').style.backgroundColor = 'rgb(5, 172, 237)' ;
         document.getElementById('btn3').style.backgroundColor = 'white' ;
         document.getElementById('btn4').style.backgroundColor = 'white' ; 
         
@@ -45,7 +45,7 @@ const TimeCalculate = (props) => {
         grandTime3.innerText = string3;
         document.getElementById('btn1').style.backgroundColor = 'white' 
         document.getElementById('btn2').style.backgroundColor = 'white' ;
-        document.getElementById('btn3').style.backgroundColor = 'blue' ;
+        document.getElementById('btn3').style.backgroundColor = 'rgb(5, 172, 237)' ;
         document.getElementById('btn4').style.backgroundColor = 'white' ;
     }
     const buttonFour = () => {
@@ -57,7 +57,7 @@ const TimeCalculate = (props) => {
         document.getElementById('btn1').style.backgroundColor = 'white' 
         document.getElementById('btn2').style.backgroundColor = 'white' ;
         document.getElementById('btn3').style.backgroundColor = 'white' ;
-        document.getElementById('btn4').style.backgroundColor = 'blue' ;
+        document.getElementById('btn4').style.backgroundColor = 'rgb(5, 172, 237)' ;
     }
 
     return (
