@@ -3,6 +3,7 @@
     border-top-left-radius:20px;
     background-color: white;
     padding:15px;
+    box-shadow: 8px 10px 8px rgb(157, 147, 147);
 }
 .tools-container img{
     height:150px;
@@ -23,4 +24,16 @@
    font-size: 17px;
    font-weight: 700;
    color: white;
+}
+.btn-add:hover{
+    background-color: burlywood;
+    color:black;
+}
+
+@media screen and (max-width: 688px) {
+    .tools-container img{
+        height:200px;
+        width:100%;
+    }
+   
 }
