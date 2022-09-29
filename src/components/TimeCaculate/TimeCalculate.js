@@ -26,10 +26,14 @@ const TimeCalculate = (props) => {
 
     const buttonOne = () => {
         const grandTime = document.getElementById('break-time')
+        console.log(grandTime)
         const breakTime = document.getElementById('time1')
         const breakTimeValue = breakTime.innerText
         const string1 = parseFloat(breakTimeValue)
-        grandTime.innerText = string1;
+        
+        localStorage.setItem('value', string1)
+        const getTime = localStorage.getItem('value')
+         grandTime.innerText =getTime;
         document.getElementById('btn1').style.backgroundColor = 'rgb(5, 172, 237)' ;
         document.getElementById('btn2').style.backgroundColor = 'white' ;
         document.getElementById('btn3').style.backgroundColor = 'white' ;
@@ -40,7 +44,10 @@ const TimeCalculate = (props) => {
         const breakTime2 = document.getElementById('time2')
         const breakTimeValue2 = breakTime2.innerText
         const string2 = parseFloat(breakTimeValue2)
-        grandTime2.innerText = string2;
+        localStorage.setItem('value', string2)
+        const getTime = localStorage.getItem('value')
+         grandTime2.innerText =getTime;
+        localStorage.setItem( 'value',string2)
         document.getElementById('btn1').style.backgroundColor = 'white'
         document.getElementById('btn2').style.backgroundColor = 'rgb(5, 172, 237)' ;
         document.getElementById('btn3').style.backgroundColor = 'white' ;
@@ -52,7 +59,10 @@ const TimeCalculate = (props) => {
         const breakTime3 = document.getElementById('time3')
         const breakTimeValue3 = breakTime3.innerText
         const string3 = parseFloat(breakTimeValue3)
-        grandTime3.innerText = string3;
+        localStorage.setItem('value', string3)
+        const getTime = localStorage.getItem('value')
+         grandTime3.innerText =getTime;
+        localStorage.setItem( 'value',string3)
         document.getElementById('btn1').style.backgroundColor = 'white' 
         document.getElementById('btn2').style.backgroundColor = 'white' ;
         document.getElementById('btn3').style.backgroundColor = 'rgb(5, 172, 237)' ;
@@ -63,7 +73,10 @@ const TimeCalculate = (props) => {
         const breakTime4 = document.getElementById('time4')
         const breakTimeValue4 = breakTime4.innerText
         const string4 = parseFloat(breakTimeValue4)
-        grandTime4.innerText = string4;
+        localStorage.setItem('value', string4)
+        const getTime = localStorage.getItem('value')
+         grandTime4.innerText =getTime;
+        localStorage.setItem( 'value',string4)
         document.getElementById('btn1').style.backgroundColor = 'white' 
         document.getElementById('btn2').style.backgroundColor = 'white' ;
         document.getElementById('btn3').style.backgroundColor = 'white' ;
