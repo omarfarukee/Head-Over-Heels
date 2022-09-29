@@ -4,6 +4,7 @@ import { faCoffee, faFolderPlus } from '@fortawesome/free-solid-svg-icons'
 import ('./Tools.css')
 const Tools = (props) => {
     const {name, img, details, time} = props.element
+    
     return (
         <div className='tools-container'>
             <div>

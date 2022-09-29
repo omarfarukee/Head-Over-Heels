@@ -2,13 +2,23 @@ import React from 'react';
 import img from '../../images/IMG_0192 (2).JPG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import ('../Body/Body.css')
 const TimeCalculate = (props) => {
     const {times} = props
     console.log(times)
 
     let addTime = 0;
-
+    const notify = () => toast("🦄 Wow You did so well buddy!", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
     for(const timeTime of times){
         addTime = addTime + timeTime.time
         
@@ -99,7 +109,16 @@ const TimeCalculate = (props) => {
                     <h4>Break-time</h4>
                     <p><span id='break-time'>00</span>s</p>
                 </div>
-                <button className='see-btn'>See activity</button>
+                <button className='see-btn' onClick={notify}>See activity</button>
+                <ToastContainer position="top-center"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover></ToastContainer>
         </div>
     );
 };
