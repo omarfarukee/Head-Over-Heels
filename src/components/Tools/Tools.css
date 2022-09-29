@@ -1,0 +1,25 @@
+.tools-container{
+    border-bottom-right-radius:20px ;
+    border-top-left-radius:20px;
+    background-color: white;
+   padding:15px;
+}
+.tools-container img{
+    height:180px;
+    width:100%;
+    border-bottom-right-radius:20px ;
+    border-top-left-radius:20px;
+}
+.three-item{
+     padding: 10px;
+}
+.btn-add{
+    height:40px;
+    width: 100%;
+    border: none;
+   background-color:rgb(97, 97, 225);
+   border-bottom-right-radius:20px ;
+   border-top-left-radius:20px;
+   font-size: 17px;
+   font-weight: 700;
+}

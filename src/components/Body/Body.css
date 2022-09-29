@@ -1,0 +1,19 @@
+.body-data{
+    display: grid;
+    grid-template-columns:4fr 1fr;
+}
+.elements-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.body-data-size{
+    margin-left:7%;
+    margin-right:7%;
+    padding-left:3%;
+    padding-right:3%;
+}
+.activity-container{
+    background-color: aqua;
+    margin-right:5%;
+}
